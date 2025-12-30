@@ -4,7 +4,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebase = {
-  apiKey: "AIzaSyAqgYqgcTmKD326PpmGJiNZI07Yu_nsNDk",
+  apiKey: "",
   authDomain: "edupathadvisor-99773.firebaseapp.com",
   projectId: "edupathadvisor-99773",
   storageBucket: "edupathadvisor-99773.firebasestorage.app",
@@ -17,3 +17,4 @@ const app = initializeApp(firebase);
 
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+
